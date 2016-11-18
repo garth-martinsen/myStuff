@@ -1,0 +1,14 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# This file is a copy of the .git/info/exclude file
+randomNum/project/**
+randomNum/target/**
+**/*.class
+**/.cache-main
+**/.cache-tests
+**/.classpath
+randomNum/.project
+**/.settings/org.eclipse.core.resources.prefs
+**/.settings/org.scala-ide.sdt.core.prefs
+**/assignment.sbt
+**/target/**
